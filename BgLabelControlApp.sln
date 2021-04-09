@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "BgLabelControlApp (Package)", "BgLabelControlApp (Package)\BgLabelControlApp (Package).wapproj", "{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BgLabelControlApp", "BgLabelControlApp\BgLabelControlApp.csproj", "{102C8F7A-5BD3-4265-BD8A-651991CA12A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|arm64.ActiveCfg = Debug|arm64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|arm64.Build.0 = Debug|arm64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|arm64.Deploy.0 = Debug|arm64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|x64.ActiveCfg = Debug|x64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|x64.Build.0 = Debug|x64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|x64.Deploy.0 = Debug|x64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|x86.ActiveCfg = Debug|x86
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|x86.Build.0 = Debug|x86
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Debug|x86.Deploy.0 = Debug|x86
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|arm64.ActiveCfg = Release|arm64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|arm64.Build.0 = Release|arm64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|arm64.Deploy.0 = Release|arm64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|x64.ActiveCfg = Release|x64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|x64.Build.0 = Release|x64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|x64.Deploy.0 = Release|x64
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|x86.ActiveCfg = Release|x86
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|x86.Build.0 = Release|x86
+		{1CEEFBBD-50F5-4728-94DE-52A92B7346C9}.Release|x86.Deploy.0 = Release|x86
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Debug|arm64.ActiveCfg = Debug|arm64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Debug|arm64.Build.0 = Debug|arm64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Debug|x64.ActiveCfg = Debug|x64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Debug|x64.Build.0 = Debug|x64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Debug|x86.ActiveCfg = Debug|x86
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Debug|x86.Build.0 = Debug|x86
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Release|arm64.ActiveCfg = Release|arm64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Release|arm64.Build.0 = Release|arm64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Release|x64.ActiveCfg = Release|x64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Release|x64.Build.0 = Release|x64
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Release|x86.ActiveCfg = Release|x86
+		{102C8F7A-5BD3-4265-BD8A-651991CA12A0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A6FF16D-511B-416F-AE85-09393CBDF348}
+	EndGlobalSection
+EndGlobal
