@@ -29,17 +29,15 @@ namespace BgLabelControlApp
         public bool HasLabelValue { get; set; }
         private static void OnLabelChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
+            BgLabelControl labelControl = d as BgLabelControl; //null checks omitted
+            String s = e.NewValue as String; //null checks omitted
+            if (s == String.Empty)
             {
-                BgLabelControl labelControl = d as BgLabelControl; //null checks omitted
-                String s = e.NewValue as String; //null checks omitted
-                if (s == String.Empty)
-                {
-                    labelControl.HasLabelValue = false;
-                }
-                else
-                {
-                    labelControl.HasLabelValue = true;
-                }
+                labelControl.HasLabelValue = false;
+            }
+            else
+            {
+                labelControl.HasLabelValue = true;
             }
         }
         public BgLabelControl()
