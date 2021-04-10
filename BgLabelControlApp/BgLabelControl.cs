@@ -20,7 +20,7 @@ namespace BgLabelControlApp
             nameof(Label),
             typeof(string),
             typeof(BgLabelControl),
-            new PropertyMetadata(default(string)));
+            new PropertyMetadata(default(string), new PropertyChangedCallback(OnLabelChanged)));
         public string Label
         {
             get => (string)GetValue(LabelProperty);
